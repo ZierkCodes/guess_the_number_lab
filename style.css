@@ -1,0 +1,67 @@
+body {
+    background-color: #181a1b;
+    color: skyblue ;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 28px;
+}
+  
+form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+#prev-guesses-msg {
+    font-size: 24px;
+    margin-top: 24px;
+}
+  
+#prev-guesses {
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+#guess-button, #reset-button {
+    margin-left: 24px;
+}
+
+.high {
+    color: #ffb04b;
+}
+  
+.low {
+    color:#00a7f7;
+}
+
+.winner {
+    color: #98d174;
+}
+
+.error {
+    color: #f13814;
+}
+
+#guess-input {
+    font-family: 'Kirang Haerang', cursive;
+    background-color:gray;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    width: 70px;
+    font-size: 15px;
+}
+
+#guess-button {
+    border-radius: 8px;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 17px;
+}
+
+#reset-button {
+    border-radius: 8px;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 17px;
+}
