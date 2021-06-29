@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"></style>
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <h1>Guess the Secret Number!</h1>
+    <h2 id="message">Please enter a guess between 1 and 100!</h2>
+    <form>
+        <input id="guess-input" placeholder="Enter guess here..." type="text" />
+        <button id="guess-button" type="submit"><strong>Guess</strong></button>
+        <button id="reset-button" type="reset" hidden><strong>Reset</strong></button>
+    </form>
+    <h3 id="prev-guesses-msg"></h3>
+    <div id="prev-guesses"></div>
+</body>
+</html>
