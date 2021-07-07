@@ -21,8 +21,9 @@ form.addEventListener("submit", function (evt) {
   });
 
 
-init();
+game.init();
 
+let game = {
 function init() {
     messageEl.className = ""
 	guessesEl.innerText = ""
@@ -94,4 +95,4 @@ function renderGuess(div, lastGuess) {
 function renderError(error) {
     messageEl.className = "error"
     messageEl.innerText = error
-};
+}};
